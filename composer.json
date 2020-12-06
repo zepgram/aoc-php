@@ -1,0 +1,20 @@
+{
+    "name": "zepgram/aoc-php",
+    "type": "project",
+    "license": "MIT",
+    "description": "Basic resolver for Advent Of Code (aoc) challenge",
+    "version": "0.0.1",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Benjamin Calef",
+            "email": "zepgram@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aoc\\": ""
+        }
+    },
+    "require": {}
+}
