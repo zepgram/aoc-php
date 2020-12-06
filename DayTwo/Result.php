@@ -1,6 +1,6 @@
 <?php
 
-namespace Aoc\DayOne;
+namespace Aoc\DayTwo;
 
 use Aoc\AocReader;
 
@@ -11,10 +11,12 @@ class Result extends AocReader
      */
     public function problemOne(): ?string
     {
+        var_dump("im in");
         $result = null;
 
         /** the puzzle input */
         $this->input;
+        var_dump($this->input);
 
         return $result;
     }

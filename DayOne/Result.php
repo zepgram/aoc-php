@@ -6,28 +6,36 @@ use Aoc\AocReader;
 
 class Result extends AocReader
 {
-    /**
-     * Solve the problem one and return result
-     */
     public function problemOne(): ?string
     {
         $result = null;
-
-        /** the puzzle input */
-        $this->input;
+        $goalValue = 2020;
+        foreach ($this->input as $currentValue) {
+            foreach ($this->input as $exploreValue) {
+                if ((int)$currentValue + (int)$exploreValue !== $goalValue) {
+                    continue;
+                }
+                $result = (int)$currentValue * (int)$exploreValue;
+            }
+        }
 
         return $result;
     }
 
-    /**
-     * Solve the problem two and return result
-     */
     public function problemTwo(): ?string
     {
         $result = null;
-
-        /** the puzzle input */
-        $this->input;
+        $goalValue = 2020;
+        foreach ($this->input as $primaryValue) {
+            foreach ($this->input as $secondaryValue) {
+                foreach ($this->input as $thirdValue) {
+                    if ((int)$primaryValue + (int)$secondaryValue + (int)$thirdValue !== $goalValue) {
+                        continue;
+                    }
+                    $result = (int)$primaryValue * (int)$secondaryValue * (int)$thirdValue;
+                }
+            }
+        }
 
         return $result;
     }

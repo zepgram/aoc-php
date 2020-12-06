@@ -1,6 +1,6 @@
 <?php
 
-namespace Aoc\DayOne;
+namespace Aoc\DayThree;
 
 use Aoc\AocReader;
 
