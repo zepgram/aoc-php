@@ -12,8 +12,8 @@ class AocResolver
 
     public function __construct(string $day, string $problem)
     {
-        $this->day = ucfirst($day);
-        $this->problem = ucfirst($problem);
+        $this->day = $day;
+        $this->problem = $problem;
     }
 
     public function resolve(): ?string

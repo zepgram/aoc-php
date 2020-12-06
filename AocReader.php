@@ -30,7 +30,7 @@ abstract class AocReader
         return $this->input;
     }
 
-    abstract public function problemOne(): ?string;
+    abstract public function problem1(): ?string;
 
-    abstract public function problemTwo(): ?string;
+    abstract public function problem2(): ?string;
 }
