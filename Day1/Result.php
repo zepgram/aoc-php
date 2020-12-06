@@ -1,6 +1,6 @@
 <?php
 
-namespace Aoc\DayThree;
+namespace Aoc\Day1;
 
 use Aoc\AocReader;
 
@@ -9,7 +9,7 @@ class Result extends AocReader
     /**
      * Solve the problem one and return result
      */
-    public function problemOne(): ?string
+    public function problem1(): ?string
     {
         $result = null;
 
@@ -22,7 +22,7 @@ class Result extends AocReader
     /**
      * Solve the problem two and return result
      */
-    public function problemTwo(): ?string
+    public function problem2(): ?string
     {
         $result = null;
 

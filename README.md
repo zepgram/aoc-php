@@ -11,13 +11,14 @@ composer create-project "zepgram/aoc-php"
 Then simply move it in your /var/www/html directory
 
 # How it works
-- Create a new Result class, with name space "Aoc\Day${day}\";
-- Then add input from website (eg: https://adventofcode.com/2020/day/1/input) in directory /input
+- Create a new Result class, with name space `Aoc\Day${day}\`
+- Then add input from website (eg: https://adventofcode.com/2020/day/1/input) in the directory `/input`
 
 # How to get result
-With simple parameters: http://127.0.0.1/aoc/?day=one&problem=one
+With simple parameters: http://127.0.0.1/aoc-php/?day=1&problem=1
 
-- The "day" value is corresponding to directory suffix which is incremental: one/two/three/four etc...
-- The "problem" value is corresponding to abstract class method and can only take value "one" or "two"
+- The "day" value is corresponding to directory suffix which is incremental: 1/2/3/4 etc...
+- The "problem" value is corresponding to abstract class method and can only take value "1" or "2"
 
-![image](https://user-images.githubusercontent.com/16258478/101285309-bc878000-37e4-11eb-8234-7796456802ff.png)
+![image](https://user-images.githubusercontent.com/16258478/101287085-6ddee380-37ee-11eb-95d8-dd923a51663d.png)
+
